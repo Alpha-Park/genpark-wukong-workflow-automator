@@ -1,0 +1,10 @@
+{
+  "name": "genpark-wukong-workflow-automator",
+  "version": "1.0.0",
+  "description": "GenPark Wukong Workflow Automator - Petri net reachability and deadlock validator, exponential backoff DLQ router, and Amdahl's Law throughput forecaster with zero dependencies.",
+  "tools": [
+    "validate_petri_net_reachability_and_deadlock",
+    "route_exponential_backoff_dead_letter",
+    "forecast_workflow_throughput_amdahl"
+  ]
+}
