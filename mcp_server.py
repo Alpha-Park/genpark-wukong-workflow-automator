@@ -56,8 +56,7 @@ def forecast_workflow_throughput_amdahl(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing Workflow Automator:")
-    print(forecast_workflow_throughput_amdahl(1000, 0.1, 4))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
